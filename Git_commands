@@ -1,0 +1,5 @@
+git status                       # Check changes
+git add .                        # Stage all changes
+git commit -m "Your commit msg"  # Commit changes
+git pull --rebase                # Pull any remote changes first
+git push                          # Push your changes
