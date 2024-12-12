@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All_types_of_tcs">
+
+	<test name="groupingtests">
+
+		<groups>
+			<run>
+				<include name="functional"/>
+			</run>	
+		</groups>
+		
+		<classes>
+			<class name = "day11.LoginMethods" />
+			<class name = "day11.SignUpMethods" />
+			<class name = "day11.PaymentMethods" />
+		</classes>
+		
+	</test>
+	
+</suite>

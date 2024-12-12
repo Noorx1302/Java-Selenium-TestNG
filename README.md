@@ -1,2 +1,1 @@
-# Java-Selenium-TestNG
-Contains code which i wrote while learning Selenuim and TestNG
+I just want to upload this repo
