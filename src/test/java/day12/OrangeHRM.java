@@ -10,9 +10,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+@Listeners(day12.MyListener.class)
 public class OrangeHRM {
 	
 	WebDriver driver;
